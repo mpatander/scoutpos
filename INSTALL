@@ -1,4 +1,6 @@
+Installation instructions:
 
+You will need python3 and npm on your system
 
 From web folder:
 ```
@@ -11,5 +13,12 @@ From main folder:
 python3 -m venv server-env
 source server-env/bin/activate
 pip install flask
+deactivate
 ```
+
+
+Note: I may have messed a bit the npm package,
+so it will probably create a node_modules folder outside
+your downloaded directory. Sorry for that.
+I will fix it as soon as I will have time to investigate.
 

@@ -16,12 +16,12 @@ import json
 from collections import OrderedDict, deque
 
 import pepos
-#from pepos import FileThermalPrinter, DummyThermalPrinter
-#printer = FileThermalPrinter('/dev/usb/lp0')
+from pepos import FileThermalPrinter, DummyThermalPrinter
+printer = FileThermalPrinter('/dev/usb/lp0')
 #printer = FileThermalPrinter('/tmp/test')
 
-from pepos import DummyThermalPrinter
-printer = DummyThermalPrinter()
+#from pepos import DummyThermalPrinter
+#printer = DummyThermalPrinter()
 
 logo_agesci = pepos.read_hex_bytes('logo_agesci.h')
 logo_w = 384
@@ -286,7 +286,7 @@ if __name__ == "__main__":
       with gzip.open(receipts_storage_filename,'at') as receipts_storage:
         thx = threading.Thread(target=process_requests)
         thx.start()
-        server.run()
+        server.run(host='0.0.0.0')
         print('Tearing down, please wait')
         requests_queue.put(None)
         thx.join()
