@@ -1,0 +1,15 @@
+
+
+From web folder:
+```
+npm install
+npm run build
+```
+
+From main folder:
+```
+python3 -m venv server-env
+source server-env/bin/activate
+pip install flask
+```
+

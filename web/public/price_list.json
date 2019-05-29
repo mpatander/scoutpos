@@ -1,0 +1,33 @@
+[
+  { "name": "Tortafritta 5pz", "cost":  2.00, "cat": "7_backend" },
+  { "name": "Salumi",          "cost":  5.00, "cat": "7_backend" },
+  { "name": "Acqua 0.5L",      "cost":  1.00, "cat": "5_bere" },
+  { "name": "Birra",           "cost":  3.50, "cat": "5_bere" },
+  { "name": "Bibita",          "cost":  2.50, "cat": "5_bere" },
+  { "name": "Caffe'",          "cost":  1.00, "cat": "5_bere" },
+  { "name": "Dolce",           "cost":  2.00, "cat": "3_dolce" },
+  { "name": "Yogurt bianco",   "cost":  1.00, "cat": "3_dolce" },
+  { "name": "Refill bibita",   "cost":  2.00, "cat": "5_bere" },
+  { "name": "Refill birra",    "cost":  3.00, "cat": "5_bere" },
+  { "name": "Vino bicchiere",  "cost":  3.00, "cat": "5_bere" },
+  { "name": "Coperto",         "cost":  0.00, "cat": "7_backend" },
+  { "name": "Refill vino",     "cost":  2.50, "cat": "5_bere" },
+  { "name": "Bottiglia vino",  "cost": 10.00, "cat": "5_bere" },
+  
+  { "name": "Menu' bibita", "cost": 10.00,
+    "items": [ "Coperto", "Tortafritta 5pz", "Salumi", "Dolce", "Bibita" ]
+  },
+  { "name": "Menu' birra", "cost": 11.00,
+    "items": [ "Coperto", "Tortafritta 5pz", "Salumi", "Dolce", "Birra" ]
+  },
+  { "name": "Menu' acqua", "cost": 9.00,
+    "items": [ "Coperto", "Tortafritta 5pz", "Salumi", "Dolce", "Acqua 0.5L" ]
+  },
+  { "name": "Menu' vino", "cost": 11.00,
+    "items": [ "Coperto", "Tortafritta 5pz", "Salumi", "Dolce", "Vino bicchiere" ]
+  },
+  
+  
+  { "_name": "Pippo" }
+]
+

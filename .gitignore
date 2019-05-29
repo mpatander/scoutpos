@@ -1,0 +1,7 @@
+web/node_modules
+web/build
+__pycache__
+server-env
+gid.txt
+receiptsdb.txt.gz
+pantry.json
